@@ -1,0 +1,159 @@
+<html>
+
+
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+   <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/x-icon" href="images/shiptracker.png">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap">
+
+
+    <script src="main.js"> </script>
+
+    <title>
+Shiptracker
+    </title>
+
+
+    <body>
+
+      <div class="navbar" style="box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); ">
+        <img style="width: 100px;" src="images/shiptracker.png">
+        <a href="#section-4"> Track Package</a>
+        <a href="#section-c"> Contact</a>
+        <a href="#section-3"> About</a>
+        <a href="index.html" class="active">Home</a>
+      </div>
+  
+      <section id="section-1">
+
+
+        <div class="typewriter" style="padding-top: 15%; color: aliceblue;">
+            <h1 id="typewriter-text">ShipTracker: Navigating Your Packages, Empowering Your Journey!</h1>
+        </div>
+
+        <a id="scroll-btn" href="#section-2"></a>
+      </section>
+      <section id="section-2">
+        
+        <h3>Our Partners</h3>
+
+
+
+
+        <!---starting the logo part-->
+        <div class="shipping-couriers">
+
+            <a href="#" class="shipping-courier fedex"><img style="height: 100px;" src="images/1.png"></a>
+      
+            <a href="#" class="shipping-courier ups"><img style="height: 100px;" src="images/2.png"></a>
+      
+            
+            </div>
+      
+      
+      
+      
+      
+      
+      
+            <div class="shipping-couriers">
+      
+              <a href="#" class="shipping-courier usps"><img style="height: 100px;" src="images/3.png"></a>
+        
+              <a href="#" class="shipping-courier dhl"><img style="height: 60px;" src="images/4.png"></a>
+        
+              
+              </div>
+    
+
+                </div>
+      
+        <!--end-->
+      </section>
+
+
+
+
+
+      <section style="background-color: #de8751; padding-top: 10%;" id="section-3">
+
+
+<p style="color: white; text-align: center; font-size: 4em;">  Who are We?</p>
+
+
+<div class="aboutus-section">
+
+  <img id="image-2" src="about-img.png" >
+
+<p style="color: white; font-size: 5vh;"> A complete solution for Package Tracking. <br> 
+  Created For a College Project, I will be updating the site with additional new features in the upcoming days. 
+  If you  have any questions or quiries, you can email me at <a href="mailto:iam@rojanupreti.com ">iam@rojanupreti.com</a>
+</p>
+
+</div>
+  
+ 
+
+      </section>
+
+
+
+
+
+      <!-----Contact US-->
+      
+      <section style="background-color: #00b0ea; padding-top: 10%;" id="section-c">
+
+
+        <div class="about-us-section">
+
+          <img style="margin-left: 10em ;" src="./images/contact-us.png" >
+        
+          <p style="color: white; font-weight: 500; font-size: 2em; margin-top: 2em;">
+            We are Online 24x7! Call us at  +1 571-365 9116 or email us at iam@rojanupreti.com
+            </p>
+        
+        </div>
+          
+         
+        
+              </section>
+
+              
+
+
+
+
+
+
+      <!--package tracking section -->
+
+
+      <section style="background-color: #ffffff; padding-top: 10%;" id="section-4">
+
+
+      
+        <div class="container">
+          <label for="trackingNumber">Enter Tracking Number:</label>
+          <input type="text" id="trackingNumber" placeholder="Enter tracking number...">
+          <button onclick="checkTracking()">Check Status</button>
+          <div id="statusResult"></div>
+        </div>
+        
+
+        
+    
+              </section>
+
+
+              
+
+              
+
+
+    </body>
+</head>
+</html>

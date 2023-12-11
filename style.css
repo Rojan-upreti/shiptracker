@@ -1,0 +1,270 @@
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+
+/* Normal styles for desktop */
+.navbar {
+  background-color: #00b0ea;
+  overflow: hidden;
+}
+
+.navbar a {
+  float: right;
+  display: block;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  padding: 37px 20px;
+  text-decoration: none;
+  font-size: 25px;
+}
+
+/* Responsive styles for mobile */
+@media screen and (max-width: 600px) {
+  .navbar a {
+    float: none;
+    display: block;
+    text-align: left;
+    padding: 15px;
+  }
+  
+  .navbar img {
+    width: 100%; /* Make the image take 100% width of the container */
+    margin-bottom: 10px; /* Add some spacing below the image */
+  }
+}
+
+  
+
+html {
+  scroll-behavior: smooth;
+}
+section {
+  height: 100vh;
+  position: relative;
+}
+#section-1 {
+  background-color:#0c0f10 ;
+}
+a#scroll-btn {
+  position: absolute;
+  height: 10em;
+  width: 6.25em;
+  border: 0.5em solid #ffffff;
+  margin: auto;
+  left: 0;
+  right: 0;
+  bottom: 6.25em;
+  border-radius: 3em;
+}
+a#scroll-btn:before {
+  position: absolute;
+  content: "";
+  margin: auto;
+  left: 0;
+  right: 0;
+  top: 1.2em;
+  height: 1.2em;
+  width: 1.2em;
+  background-color: #ffffff;
+  border-radius: 50%;
+  animation: move-down 2s infinite;
+}
+@keyframes move-down {
+  80% {
+    opacity: 0.5;
+  }
+  100% {
+    transform: translateY(5.3em);
+    opacity: 0;
+  }
+}
+a#scroll-btn:after {
+  position: absolute;
+ 
+  width: 12em;
+  display: block;
+  width: 12em;
+  text-align: center;
+  left: -4.2em;
+  bottom: -2.5em;
+  font-size: 1.6em;
+  color: #ffffff;
+  letter-spacing: 3px;
+  font-weight: 600;
+}
+#section-2 {
+  background-color: #fbfdff;
+  color: #3f3333;
+  font-size: 2.7em;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 200px;
+  
+  gap: 1em;
+}
+@media screen and (max-width: 500px) {
+  a#scroll-btn {
+    font-size: 12px;
+  }
+}
+@media screen and (max-width: 500px) {
+  #section-1 {
+    display: none;
+  }
+}
+
+.typewriter {
+  overflow: hidden; /* Ensures the text doesn't overflow its container */
+  border-right: 1px solid rgb(255, 255, 255)4f4; /* Cursor effect */
+  white-space: nowrap; /* Keeps the text on a single line */
+  font-size: 24px;
+  text-align: center; 
+  justify-content: center;
+}
+
+/* Optional: Add blinking cursor animation */
+@keyframes blink {
+  50% {
+      border-color: transparent;
+  }
+}
+
+.typewriter::after {
+  content: ''; /* Cursor character */
+  animation: blink 0.5s infinite;
+}
+
+.shipping-couriers {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  
+
+}
+
+.shipping-courier {
+  display: flex;
+  align-items: center;
+  padding: 10px 20px;
+  text-decoration: none;
+  
+}
+
+.aboutus-section {
+  display: flex;
+  padding: 10px 20px;
+}
+
+.about-us-section {
+  display: flex;
+  padding: 10px 20px;
+}
+
+/* Media query for mobile devices (screen width less than or equal to 767px) */
+@media only screen and (max-width: 767px) {
+  .aboutus-section img {
+    width: 100%; /* Set the width to 100% of its container */
+    height: auto; /* Maintain aspect ratio */
+    
+  }
+
+  
+
+  /* Media query for mobile devices (screen width less than or equal to 767px) */
+@media only screen and (max-width: 767px) {
+  .aboutus-section p {
+    display: none;
+    
+  }
+
+
+  @media only screen and (max-width: 767px) {
+    #section-c img {
+      display: none;
+
+}
+
+@media only screen and (max-width: 767px) {
+  #section-c p {
+  font-size: 2px;
+
+
+  }
+  
+
+/* Media query for mobile devices (screen width less than or equal to 767px) */
+@media only screen and (max-width: 767px) {
+  #section-c {
+    width: 100%; /* Set the width to 100% of its container */
+    height: auto; /* Maintain aspect ratio */
+    
+  }
+}
+
+
+
+
+
+
+}
+
+.container {
+  text-align: center;
+}
+
+label {
+  display: block;
+  margin-bottom: 1em;
+}
+
+input {
+  padding: 0.5em;
+  margin-bottom: 1em;
+}
+
+button {
+  padding: 0.8em 1.5em;
+  font-size: 1em;
+  cursor: pointer;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+#statusResult {
+  margin-top: 1em;
+  font-weight: bold;
+
+}
+
+
+.footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 1em;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+
+.footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 1em;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+
+}
+
