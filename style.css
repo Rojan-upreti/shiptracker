@@ -168,7 +168,7 @@ a#scroll-btn:after {
   .aboutus-section img {
     width: 100%; /* Set the width to 100% of its container */
     height: auto; /* Maintain aspect ratio */
-    
+  }
   }
 
   
@@ -177,21 +177,21 @@ a#scroll-btn:after {
 @media only screen and (max-width: 767px) {
   .aboutus-section p {
     display: none;
-    
+  }
   }
 
 
   @media only screen and (max-width: 767px) {
     #section-c img {
       display: none;
-
+    }
 }
 
 @media only screen and (max-width: 767px) {
   #section-c p {
   font-size: 2px;
 
-
+  }
   }
   
 
@@ -208,11 +208,11 @@ a#scroll-btn:after {
 
 
 
-
-}
-
 .container {
   text-align: center;
+  position: relative;
+ 
+ 
 }
 
 label {
@@ -242,29 +242,6 @@ button:hover {
 #statusResult {
   margin-top: 1em;
   font-weight: bold;
-
-}
-
-
-.footer {
-  background-color: #333;
-  color: #fff;
-  text-align: center;
-  padding: 1em;
-  position: fixed;
-  bottom: 0;
-  width: 100%;
-}
-
-
-.footer {
-  background-color: #333;
-  color: #fff;
-  text-align: center;
-  padding: 1em;
-  position: fixed;
-  bottom: 0;
-  width: 100%;
 
 }
 
